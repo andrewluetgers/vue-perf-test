@@ -19,6 +19,6 @@ You can start or stop the process and pick different sizes for the grid. Which a
 The 100 x 100 grid is the main show here and illustrates weather or not the change observation, subscription and rendering mechanisms all scale well or not.
 
 # Other Implementations
- [React + MobX](https://github.com/andrewluetgers/mobx-react-perf-test)
- [Omnistate](https://github.com/andrewluetgers/omnistate)
- [vanilla-js](http://jsfiddle.net/zme8f7k8/5/)
+ * [React + MobX](https://github.com/andrewluetgers/mobx-react-perf-test)
+ * [Omnistate](https://github.com/andrewluetgers/omnistate)
+ * [vanilla-js](http://jsfiddle.net/zme8f7k8/5/)
