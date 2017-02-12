@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-perf-test</title>
+    <link rel="stylesheet" href="/assets/dist/styles.min.css">
+
+  </head>
+  <body>
+    <div id="root">
+      <app></app>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+    <script>
+	    window.stats = new Stats();
+	    stats.domElement.style.position = 'absolute';
+	    stats.domElement.style.right = '0px';
+	    stats.domElement.style.top = '50px';
+	    document.body.appendChild( stats.domElement );
+    </script>
+    <script src="/assets/dist/main.bundle.js"></script>
+  </body>
+</html>
