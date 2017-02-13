@@ -24,9 +24,7 @@ The 100 x 100 grid is the main show here and illustrates weather or not the chan
  * vanilla-js (coming soon)
 
 # Results vs React + MobX
-It is by no means a perfect test. The main goal is to see how fast you can do many updates to many different items. At 100 x 100 you are addressing updates to 10000 unique items.
-
-A couple observations:
+It is by no means a perfect test but here are a couple observations.
 
 Vue.js is as fast as React + MobX at 1 update per frame and performs better as you increase to 10, 100, and 1000 operations per frame.
 
