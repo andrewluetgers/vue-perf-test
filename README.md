@@ -21,4 +21,4 @@ The 100 x 100 grid is the main show here and illustrates weather or not the chan
 # Other Implementations
  * [React + MobX](https://github.com/andrewluetgers/mobx-react-perf-test)
  * [Omnistate](https://github.com/andrewluetgers/omnistate)
- * [vanilla-js](http://jsfiddle.net/zme8f7k8/5/)
+ * vanilla-js (coming soon)
