@@ -33,3 +33,5 @@ Vue.js is as fast as React + MobX at 1 update per frame and performs better as y
 With React the way you break your code out into components has a huge impact on performance. With Vue.js this seems not to be the case. The React implementation uses individual components for the table, row and cell, the Vue.js implementation uses one component with nested for in loops. This is a great improvement in simplicity and expressively without sacrificing performance. But more importantly I don't need to think as hard about performance. That is a huge win.
 
 At 1000 operations per frame the Vue.js implementation runs 2x faster than React+MobX, the call stack flame graphs say it all. Guess which is which, depth of 9 vs 34.
+
+<img width="1440" alt="screen shot 2017-02-12 at 10 10 48 pm" src="https://cloud.githubusercontent.com/assets/232036/22889587/4a0c8a3e-f1cf-11e6-9514-fffc10b8fcf4.png">
